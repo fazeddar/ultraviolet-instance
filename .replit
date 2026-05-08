@@ -1,11 +1,8 @@
-language = "nix"
+language = "nodejs"
 run = ["npm", "start"]
 
 [packager]
 language = "nodejs-npm"
-
-[nix]
-channel = "stable-24_05"
 
 [debugger]
 
